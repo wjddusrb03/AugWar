@@ -27,7 +27,7 @@ timing:
   border-final-time: 900
 
 augments:
-  gui-timeout: 5
+  gui-timeout: 15
   candidates: 3
   kill-upgrade: true
   kill-streak-bonus: true

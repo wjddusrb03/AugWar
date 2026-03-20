@@ -59,7 +59,7 @@ public class ConfigManager {
     public int getBorderFinalTime() { return getConfig().getInt("timing.border-final-time", 900); }
 
     // Augment settings
-    public int getGuiTimeout() { return getConfig().getInt("augments.gui-timeout", 5); }
+    public int getGuiTimeout() { return getConfig().getInt("augments.gui-timeout", 15); }
     public int getCandidates() { return getConfig().getInt("augments.candidates", 3); }
     public boolean isKillUpgrade() { return getConfig().getBoolean("augments.kill-upgrade", true); }
     public boolean isKillStreakBonus() { return getConfig().getBoolean("augments.kill-streak-bonus", true); }
