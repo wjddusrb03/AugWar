@@ -1,6 +1,10 @@
 # ⚔️ AugWar (증강전쟁)
 
-**마인크래프트 증강 PvP 배틀로얄 플러그인** — Paper 1.21.4
+**마인크래프트 증강 PvP 배틀로얄 플러그인** — Paper 1.21.x
+
+[![Paper](https://img.shields.io/badge/Paper-1.21.x-blue?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAM0lEQVQoU2NkIBIwEqmOgXyN/4n0NMzm/6S6Gtkpow1IpKtHG5AMTY8DGxwpWqcRkRgAe5oOD3lFcdoAAAAASUVORK5CYII=)](https://papermc.io/)
+[![Java](https://img.shields.io/badge/Java-17+-orange?logo=openjdk)](https://adoptium.net/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 > 40가지 고유 증강을 조합하여 전략적으로 싸우는 배틀로얄 서바이벌
 
@@ -186,8 +190,17 @@ AugWar(증강전쟁)은 마인크래프트 서바이벌에 **증강(Augment) 시
 
 ## 📥 설치 방법
 
+### 지원 버전
+
+| 서버 플랫폼 | 지원 버전 | 비고 |
+|-------------|----------|------|
+| **Paper** | 1.21 ~ 1.21.4 | 권장 (개발 기준: 1.21.4) |
+| **Folia** | 1.21.x | 미테스트 (호환 가능성 있음) |
+| **Spigot** | 1.21.x | Paper API 사용으로 일부 기능 제한 가능 |
+| **Bukkit** | - | 미지원 |
+
 ### 요구사항
-- **Paper 1.21.4** 이상
+- **Paper 1.21** 이상 (1.21.4 권장)
 - **Java 17** 이상
 
 ### 설치
@@ -234,7 +247,7 @@ augments:
 ## 🔨 빌드
 
 ```bash
-git clone https://github.com/<username>/AugWar.git
+git clone https://github.com/wjddusrb03/AugWar.git
 cd AugWar
 mvn package
 ```
@@ -243,9 +256,19 @@ mvn package
 
 ---
 
+## 🐛 버그 리포트 / 기능 제안
+
+플러그인 사용 중 **버그, 오류, 개선 사항**이 있다면 언제든지 알려주세요!
+
+- [Issues 탭](../../issues)에서 새 이슈를 등록해주세요
+- 버그 리포트 시 **서버 버전, Java 버전, 에러 로그**를 함께 첨부해주시면 빠른 대응이 가능합니다
+- 새로운 증강 아이디어나 밸런스 제안도 환영합니다
+
+---
+
 ## 📄 라이선스
 
-이 프로젝트는 개인 프로젝트입니다.
+이 프로젝트는 [MIT License](LICENSE)를 따릅니다.
 
 ---
 
