@@ -1,0 +1,232 @@
+# ========================
+# AugWar - 증강 개별 설정
+# ========================
+
+augments:
+  # === 실버 등급 ===
+  S01:
+    name: "광부의 축복"
+    tier: SILVER
+    enabled: true
+    mining-speed-multiplier: 1.3
+  S02:
+    name: "두꺼운 가죽"
+    tier: SILVER
+    enabled: true
+    armor-bonus: 2
+  S03:
+    name: "민첩한 발걸음"
+    tier: SILVER
+    enabled: true
+    speed-multiplier: 1.1
+  S04:
+    name: "양날의 검"
+    tier: SILVER
+    enabled: true
+    damage-bonus: 1.0
+    damage-taken-multiplier: 1.05
+  S05:
+    name: "자연 치유"
+    tier: SILVER
+    enabled: true
+    heal-interval: 200
+    heal-amount: 1.0
+  S06:
+    name: "행운의 손"
+    tier: SILVER
+    enabled: true
+    fortune-level: 1
+  S07:
+    name: "긴급 식량"
+    tier: SILVER
+    enabled: true
+    hunger-reduction: 0.3
+  S08:
+    name: "야간 투시"
+    tier: SILVER
+    enabled: true
+  S09:
+    name: "가벼운 주머니"
+    tier: SILVER
+    enabled: true
+    speed-bonus: 0.05
+  S10:
+    name: "연막탄"
+    tier: SILVER
+    enabled: true
+    radius: 3
+    cooldown: 60
+  S11:
+    name: "화살 절약"
+    tier: SILVER
+    enabled: true
+    save-chance: 0.3
+  S12:
+    name: "불사의 토템 파편"
+    tier: SILVER
+    enabled: true
+    revive-health: 4.0
+
+  # === 골드 등급 ===
+  G01:
+    name: "광전사"
+    tier: GOLD
+    enabled: true
+    health-threshold: 0.3
+    damage-multiplier: 1.5
+  G02:
+    name: "철벽"
+    tier: GOLD
+    enabled: true
+    damage-reduction: 0.4
+  G03:
+    name: "뱀파이어"
+    tier: GOLD
+    enabled: true
+    lifesteal: 0.2
+  G04:
+    name: "스톰 러너"
+    tier: GOLD
+    enabled: true
+    radius: 3
+    damage-per-second: 1.0
+  G05:
+    name: "폭발물 전문가"
+    tier: GOLD
+    enabled: true
+    explosion-reduction: 0.5
+  G06:
+    name: "은신 달인"
+    tier: GOLD
+    enabled: true
+    sneak-time: 10
+    cooldown: 30
+  G07:
+    name: "화염 마법사"
+    tier: GOLD
+    enabled: true
+    fire-chance: 0.3
+  G08:
+    name: "서리 보행자"
+    tier: GOLD
+    enabled: true
+    slowness-duration: 40
+  G09:
+    name: "역장 생성"
+    tier: GOLD
+    enabled: true
+    trigger-chance: 0.2
+    radius: 4
+    cooldown: 15
+  G10:
+    name: "정밀 사격"
+    tier: GOLD
+    enabled: true
+    damage-multiplier: 1.4
+  G11:
+    name: "지진술사"
+    tier: GOLD
+    enabled: true
+    radius: 5
+    damage: 4.0
+    cooldown: 20
+  G12:
+    name: "영혼 수집"
+    tier: GOLD
+    enabled: true
+    health-per-kill: 2.0
+    max-bonus: 10.0
+  G13:
+    name: "차원 주머니"
+    tier: GOLD
+    enabled: true
+    slots: 9
+    allow-equipment: false
+  G14:
+    name: "전투 도약"
+    tier: GOLD
+    enabled: true
+    distance: 5
+    damage: 6.0
+    cooldown: 12
+  G15:
+    name: "방패 생성기"
+    tier: GOLD
+    enabled: true
+    interval: 600
+    absorption: 2
+  G16:
+    name: "약탈자"
+    tier: GOLD
+    enabled: true
+    loot-count: 3
+
+  # === 프리즘 등급 ===
+  P01:
+    name: "사신의 낫"
+    tier: PRISM
+    enabled: true
+    execute-threshold: 0.2
+  P02:
+    name: "불멸의 전사"
+    tier: PRISM
+    enabled: true
+    invincible-duration: 200
+  P03:
+    name: "천둥의 분노"
+    tier: PRISM
+    enabled: true
+    lightning-chance: 0.2
+    damage: 12.0
+  P04:
+    name: "도플갱어"
+    tier: PRISM
+    enabled: true
+  P05:
+    name: "시간 왜곡"
+    tier: PRISM
+    enabled: true
+    trigger-chance: 0.3
+    rewind-seconds: 3
+    cooldown: 45
+  P06:
+    name: "엔더 지배자"
+    tier: PRISM
+    enabled: true
+    cooldown: 5
+    aoe-damage: 4.0
+  P07:
+    name: "생명력 폭발"
+    tier: PRISM
+    enabled: true
+    radius: 5
+    cooldown: 2
+  P08:
+    name: "전장의 안개"
+    tier: PRISM
+    enabled: true
+    interval: 600
+    radius: 15
+    duration: 200
+  P09:
+    name: "무한 갑옷"
+    tier: PRISM
+    enabled: true
+  P10:
+    name: "증강 강탈"
+    tier: PRISM
+    enabled: true
+    min-target-augments: 2
+  P11:
+    name: "영역 전개"
+    tier: PRISM
+    enabled: true
+    radius: 10
+    duration: 160
+    cooldown: 90
+  P12:
+    name: "최후의 저항"
+    tier: PRISM
+    enabled: true
+    health-threshold: 0.3
+    effect-multiplier: 2.0

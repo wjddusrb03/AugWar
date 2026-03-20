@@ -1,0 +1,20 @@
+name: AugWar
+version: ${project.version}
+main: com.augwar.AugWar
+api-version: '1.21'
+description: 증강전쟁 - 증강 PvP 배틀로얄 서바이벌
+author: JG
+
+commands:
+  aw:
+    description: AugWar 메인 명령어
+    aliases: [augwar]
+    usage: /aw <명령어>
+
+permissions:
+  augwar.admin:
+    description: AugWar 관리자 권한
+    default: op
+  augwar.use:
+    description: AugWar 일반 사용 권한
+    default: true

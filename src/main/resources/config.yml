@@ -1,0 +1,64 @@
+# ========================
+# AugWar - 증강전쟁 설정
+# ========================
+
+game:
+  min-players: 4
+  max-players: 16
+  mode: solo
+  team-size: 2
+
+world:
+  border-initial: 300
+  border-phase1: 200
+  border-phase2: 80
+  border-final: 25
+  border-shrink-time: 60
+  border-damage-phase1: 1.0
+  border-damage-phase2: 1.5
+  border-damage-final: 2.0
+
+timing:
+  countdown: 30
+  augment-1st: 180
+  augment-2nd: 360
+  augment-3rd: 540
+  augment-4th: 720
+  border-final-time: 900
+
+augments:
+  gui-timeout: 5
+  candidates: 3
+  kill-upgrade: true
+  kill-streak-bonus: true
+  synergy-enabled: true
+  disabled: []
+
+anti-camp:
+  enabled: true
+  start-after: 180
+  idle-time: 240
+
+disconnect:
+  timeout: 60
+  drop-items: true
+
+messages:
+  prefix: "[AugWar]"
+  game-start: "게임이 시작되었습니다. 살아남으세요."
+  augment-select: "증강 획득: {augment_name}"
+  augment-timeout: "시간 초과 - 자동 선택: {augment_name}"
+  kill-message: "{killer}님이 {victim}님을 처치했습니다."
+  winner: "우승: {winner}"
+  credit-line1: "AugWar - 증강전쟁"
+  credit-line2: "Made by JG"
+  credit-line3: "당신의 전략이 승리를 결정합니다."
+
+database:
+  type: yaml
+  mysql:
+    host: localhost
+    port: 3306
+    database: augwar
+    username: root
+    password: ""
